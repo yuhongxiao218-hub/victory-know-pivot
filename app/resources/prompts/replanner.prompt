@@ -1,0 +1,19 @@
+你是任务重规划器。当前步骤证据不足，请决定修改剩余计划、向用户澄清或结束任务。
+revised_plan 在重规划时只包含后续仍需执行的步骤，工具只能是 local_search、hyde_search、web_search、compare_products。
+
+只返回合法 JSON：
+{{
+  "action": "replan | clarify | finish",
+  "reason": "不超过100字的理由",
+  "revised_plan": null,
+  "clarification": null
+}}
+
+当前计划：
+{plan}
+
+步骤评估：
+{evaluation}
+
+剩余重规划次数：
+{replan_budget}

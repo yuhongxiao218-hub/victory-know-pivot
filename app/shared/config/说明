@@ -1,0 +1,17 @@
+common 文件进行了统一的配置和说明，便于在整个应用中使用。
+比如说 common进行了统一的load_dotenv()配置，方便在不同环境下加载环境变量。
+                      env_str()配置了统一的环境变量字符串处理方法，确保在不同环境下能够正确解析和使用环境变量。
+
+config
+        不同方向接值.py
+        不同方向接值.py
+        不同方向接值.py
+        不同方向接值.py
+        不同方向接值.py
+           一个类型 class 类:
+                    属性:类型
+           一个类对象存储具体的值:
+                 对象 = 类(
+                    属性= os.get 没有这么   -> config/common.py -> def env_str(name: str, default: str = "") -> str:
+                    属性=
+                 )
