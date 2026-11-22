@@ -173,6 +173,7 @@ backups/
 minio-data/
 tools/minio/minio.exe
 career-claim-ledger.json
+app/shared/config/说明
 .github-export*/
 
 # Keep only the public project introduction in Git
